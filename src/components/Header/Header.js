@@ -1,5 +1,5 @@
 import React from 'react';
-import CTA from '../CTA/CTA';
+import Resume from '../Resume/Resume';
 import HeaderSocials from '../HeaderSocials/HeaderSocials';
 import ME from '../../images/assets/me.png'
 
@@ -11,15 +11,14 @@ const Header = () => {
                 <h5>Hello I'm</h5>
                 <h2>Mohammad Faysal</h2>
                 <h5 className='text-light'>Front-End Developer</h5>
-                <CTA></CTA>
+                <Resume></Resume>
                 <HeaderSocials></HeaderSocials>
                 <div className="me">
                     <img src={ME} alt="" />
                 </div>
-                <a href="#contact" className='scroll-down'>Scroll Down</a>
             </div>
         </header>
-
+        //  <SiChainlink></SiChainlink>
     );
 };
 

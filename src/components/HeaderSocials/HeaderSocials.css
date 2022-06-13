@@ -8,13 +8,6 @@
     bottom: 3rem;
 }
 
-.header-socials::after {
-    content: '';
-    width: 1px;
-    height: 2rem;
-    background: var(--color-primary);
-}
-
 /* --------------------- Media Queries For Mobile -------------------- */
 @media screen and (max-width:600px) {
     .header-socials {

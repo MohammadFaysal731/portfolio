@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css'
-import Me from '../../images/assets/me-about.jpg'
+import Me from '../../images/assets/me.jpg'
 import { FaAward, FaUsers, FaRegFolderOpen } from 'react-icons/fa';
 
 const About = () => {
@@ -19,12 +19,12 @@ const About = () => {
                         <article className='about-card'>
                             <FaAward className='about-icon'></FaAward>
                             <h5>Experience</h5>
-                            <small>3+ Years</small>
+                            <small>Fresher</small>
                         </article>
                         <article className='about-card'>
                             <FaUsers className='about-icon'></FaUsers>
                             <h5>Clients</h5>
-                            <small>300+ Worldwide</small>
+                            <small>Coming Soon</small>
                         </article>
                         <article className='about-card'>
                             <FaRegFolderOpen className='about-icon'></FaRegFolderOpen>
@@ -33,8 +33,10 @@ const About = () => {
                         </article>
 
                     </div>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam, non corrupti earum fugit nostrum cumque quos distinctio. Nihil odio voluptatum itaque, consectetur, vitae nobis autem sunt, cumque voluptatem molestiae doloribus.</p>
-                    <a href="#contact" className='btn btn-primary'>Let's Talk</a>
+                    <blockquote>
+                        I am a student of Government Tolaram College. I am learning about web development and I am finishing my professional web development course. Now I am a web developer. I'm passionate about web development. I know about web development. My skills in web development I know  #HTML #CSS # JavaScript #ES6 #Bootstrap #React-Bootstrap #Tailwind and daisyui #React #React-Router #Firebase #NodeJS #Express #MongoDB.
+                    </blockquote>
+                    <a href="#contact" className='btn'>Contact Me</a>
                 </div>
 
             </div>
