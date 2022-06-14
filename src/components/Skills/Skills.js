@@ -6,7 +6,12 @@ import { TbBrandJavascript, TbBrandTailwind } from 'react-icons/tb'
 import { SiBootstrap, SiMongodb, SiExpress } from 'react-icons/si'
 import { FaReacteurope } from 'react-icons/fa'
 import { DiNodejs } from 'react-icons/di'
+import { Cursor, useTypewriter } from 'react-simple-typewriter';
 const Skills = () => {
+    const { text } = useTypewriter({
+        words: ['What Skill I Have'],
+        loop: {}
+    })
     const mySkills = [
         {
             icon: <AiOutlineHtml5></AiOutlineHtml5>,
@@ -44,7 +49,7 @@ const Skills = () => {
     return (
         <section id='skill' className='section'>
             <h2>My Skills</h2>
-            <h5>What Skill I Have</h5>
+            <h5>{text}<Cursor></Cursor></h5>
             <div className="container skill-container">
                 <div className="skill-frontend">
                     <h3>Frontend Development</h3>

@@ -3,7 +3,12 @@ import './Contact.css';
 import { SiMinutemailer } from 'react-icons/si'
 import { BsMessenger, BsWhatsapp } from 'react-icons/bs'
 import emailjs from 'emailjs-com'
+import { Cursor, useTypewriter } from 'react-simple-typewriter';
 const Contact = () => {
+    const { text } = useTypewriter({
+        words: ['Get In Touch'],
+        loop: {}
+    })
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -21,13 +26,13 @@ const Contact = () => {
     return (
         <section id='contact' className='section'>
             <h2>Contact Me</h2>
-            <h5>Get In Touch</h5>
+            <h5>{text}<Cursor></Cursor></h5>
             <div className="container contact-container">
                 <form ref={form} onSubmit={sendEmail}>
                     <input type="text" name='name' placeholder='Your Full Name' required />
                     <input type="email" name='email' placeholder='Your Email' required />
                     <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
-                    <button type='submit' className='btn'>Send Message</button>
+                    <button type='submit' className='message-btn'>Send Message</button>
                 </form>
                 <div className="contact-options">
                     <article className='contact-option'>

@@ -8,7 +8,6 @@ import Header from './components/Header/Header'
 import Home from './components/Home/Home'
 import Projects from './components/Projects/Projects';
 import Services from './components/Services/Services';
-import Testimonials from './components/Testimonials/Testimonials';
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
         <Route path='/skills' element={<Skills></Skills>}></Route>
         <Route path='/services' element={<Services></Services>}></Route>
         <Route path='/projects' element={<Projects></Projects>}></Route>
-        <Route path='/testimonials' element={<Testimonials></Testimonials>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
       </Routes>
       <Footer></Footer>

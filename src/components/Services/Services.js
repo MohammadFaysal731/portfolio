@@ -5,7 +5,12 @@ import { BsCodeSlash } from 'react-icons/bs'
 import { GiSmartphone } from 'react-icons/gi'
 import { } from 'react-icons/io'
 import { FiDatabase } from 'react-icons/fi'
+import { Cursor, useTypewriter } from 'react-simple-typewriter';
 const Services = () => {
+    const { text } = useTypewriter({
+        words: ['What I Offer'],
+        loop: {}
+    })
     const myServices = [
         {
             icon: <BsCodeSlash></BsCodeSlash>,
@@ -36,7 +41,7 @@ const Services = () => {
     return (
         <section id='services' className='section'>
             <h2>My Services</h2>
-            <h5>What I Offer</h5>
+            <h5>{text}<Cursor></Cursor></h5>
             <div className="container service-container">
                 {
                     myServices.map(({ icon, name, description }, index) => <article key={index} className='service'>

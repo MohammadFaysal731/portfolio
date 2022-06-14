@@ -5,7 +5,6 @@ import Experience from '../Skills/Skills';
 import Nav from '../Nav/Nav';
 import Projects from '../Projects/Projects';
 import Services from '../Services/Services';
-import Testimonials from '../Testimonials/Testimonials';
 import './Home.css';
 const Home = () => {
     return (
@@ -15,7 +14,6 @@ const Home = () => {
             <Experience></Experience>
             <Services></Services>
             <Projects></Projects>
-            <Testimonials></Testimonials>
             <Contact></Contact>
         </div>
     );

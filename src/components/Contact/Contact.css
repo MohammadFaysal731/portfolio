@@ -23,7 +23,7 @@ textarea {
 
 }
 
-.btn {
+.message-btn {
     width: max-content;
     display: inline-block;
     background: transparent;
@@ -35,7 +35,7 @@ textarea {
     transition: var(--transition);
 }
 
-.btn:hover {
+.message-btn:hover {
     background: var(--color-primary);
     color: var(--color-white);
     border-color: transparent;

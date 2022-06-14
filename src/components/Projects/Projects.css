@@ -1,50 +1,41 @@
 .project-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    width: 400px;
 }
 
 .project-item {
     background: var(--color-bg-variant);
-    padding: 1.3rem;
-    border: 1px solid transparent;
-    border-radius: 2rem;
+    padding: 1rem;
+    border: 1px solid var(--color-primary);
+    border-radius: 20px;
     transition: var(--transition);
+    user-select: none;
 }
 
-.project-item:hover {
-    border-color: var(--color-primary-variant);
-    background: transparent;
+.project-image {
+    border: 1px solid var(--color-primary);
+    border-radius: 10px;
 }
 
-.project-item-image {
-    border-radius: 1.5rem;
-    overflow: hidden;
-}
-
-.project-item h3 {
-    margin: 1.2rem 0 2rem;
-}
-
-.project-item-cta {
+.icons {
     display: flex;
-    justify-content: space-between;
-    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-bg-variant);
+    border: 1px solid var(--color-primary);
+    border-radius: 1rem;
+    color: var(--color-primary);
     margin: 1rem;
+    padding: 10px;
 }
 
-/* --------------------- Media Queries For table -------------------- */
-@media screen and (max-width:1024px) {
-    .project-container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1.2rem;
-    }
-}
+.detail-btn {
+    background-color: var(--color-bg-variant);
+    border: 1px solid var(--color-primary);
+    border-radius: 50%;
+    color: var(--color-primary);
+    padding: .5rem;
 
-/* --------------------- Media Queries For Mobile -------------------- */
-@media screen and (max-width:688px) {
-    .project-container {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 1rem;
-    }
 }

@@ -7,7 +7,6 @@ const Footer = () => {
     const year = today.getFullYear();
     return (
         <footer id='footer'>
-            <a href="#" className='footer-logo'>Mohammad Faysal</a>
             <ul className='permalinks'>
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
