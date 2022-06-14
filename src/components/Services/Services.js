@@ -40,11 +40,26 @@ const Services = () => {
     ]
     return (
         <section id='services' className='section'>
-            <h2>My Services</h2>
-            <h5>{text}<Cursor></Cursor></h5>
+            <h2
+                data-aos="fade-down"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+            >My Services</h2>
+            <h5
+                data-aos="fade-down"
+                data-aos-delay="90"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+            >{text}<Cursor></Cursor></h5>
             <div className="container service-container">
                 {
-                    myServices.map(({ icon, name, description }, index) => <article key={index} className='service'>
+                    myServices.map(({ icon, name, description }, index) => <article
+                        data-aos="flip-up"
+                        data-aos-delay="1200"
+                        data-aos-duration="1200"
+                        data-aos-easing="ease-in-out"
+                        key={index} className='service'>
                         <div className="service-head">
                             <h3>{name}</h3>
                         </div>

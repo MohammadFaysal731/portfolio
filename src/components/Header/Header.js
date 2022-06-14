@@ -10,16 +10,36 @@ const Header = () => {
         loop: {}
     })
     return (
-        <header>
+        <header >
             <div className="container header-container">
-                <h5>Hello I'm</h5>
-                <h2>Mohammad Faysal</h2>
-                <h5 style={{ color: '#176F6B', fontSize: '1rem' }}>{text}<Cursor></Cursor></h5>
+                <h5
+                    data-aos="fade-down"
+                    data-aos-delay="50"
+                    data-aos-duration="1000"
+                    data-aos-easing="ease-in-out"
+                >Hello I'm</h5>
+                <h2
+                    data-aos="fade-down"
+                    data-aos-delay="1000"
+                    data-aos-duration="1200"
+                    data-aos-easing="ease-in-out"
+                >Mohammad Faysal</h2>
+                <h5
+                    data-aos="fade-down"
+                    data-aos-delay="1500"
+                    data-aos-duration="1600"
+                    data-aos-easing="ease-in-out"
+                    style={{ color: '#176F6B', fontSize: '1rem' }}>{text}<Cursor></Cursor></h5>
                 <Resume></Resume>
-                <HeaderSocials></HeaderSocials>
-                <div className="me">
+                <div
+                    data-aos="zoom-in"
+                    data-aos-delay="2500"
+                    data-aos-duration="3000"
+                    data-aos-easing="ease-in-out"
+                    className="me">
                     <img src={ME} alt="" />
                 </div>
+                <HeaderSocials></HeaderSocials>
             </div>
         </header >
         //  <SiChainlink></SiChainlink>

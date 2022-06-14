@@ -6,9 +6,11 @@ import Nav from '../Nav/Nav';
 import Projects from '../Projects/Projects';
 import Services from '../Services/Services';
 import './Home.css';
+import Header from '../Header/Header';
 const Home = () => {
     return (
         <div>
+            <Header></Header>
             <Nav></Nav>
             <About></About>
             <Experience></Experience>

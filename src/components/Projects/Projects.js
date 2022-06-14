@@ -57,9 +57,24 @@ const Projects = () => {
     ]
     return (
         <section id='projects' className='section'>
-            <h2>My Project</h2>
-            <h5>{text}<Cursor></Cursor></h5>
-            <Swiper className="container project-container"
+            <h2
+                data-aos="fade-down"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+            >My Project</h2>
+            <h5
+                data-aos="fade-down"
+                data-aos-delay="90"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+            >{text}<Cursor></Cursor></h5>
+            <Swiper
+                data-aos="fade-right"
+                data-aos-delay="110"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                className="container project-container"
                 spaceBetween={30}
                 centeredSlides={true}
                 autoplay={{
