@@ -1,0 +1,25 @@
+header {
+    border: 1px solid var(--color-primary);
+    height: 50px;
+    margin-bottom: 1rem;
+    user-select: none;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-primary);
+    white-space: nowrap;
+}
+
+.nav-links a {
+    padding: 1rem;
+    text-transform: uppercase;
+}

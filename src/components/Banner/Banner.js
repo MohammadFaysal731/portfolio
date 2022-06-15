@@ -42,7 +42,7 @@ const Banner = () => {
                 </div>
             </div>
         </section >
-        //  <SiChainlink></SiChainlink>
+
     );
 };
 
