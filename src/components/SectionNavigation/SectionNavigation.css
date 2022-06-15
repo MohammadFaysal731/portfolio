@@ -1,4 +1,4 @@
-nav {
+.section-navigation {
     background: rgba(0, 0, 0, 0.3);
     border-radius: 3rem;
     width: max-content;
@@ -14,7 +14,7 @@ nav {
     backdrop-filter: blur(1rem);
 }
 
-nav a {
+.section-navigation a {
     background: transparent;
     padding: 0.5rem;
     border-radius: 50%;
@@ -23,11 +23,11 @@ nav a {
     font-size: 1.1rem;
 }
 
-nav a:hover {
+.section-navigation a:hover {
     background: rgba(0, 0, 0, 0.5);
 }
 
-nav a.active {
+.section-navigation a.active {
     background: var(--color-primary);
     color: var(--color-bg);
 }

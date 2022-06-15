@@ -13,9 +13,11 @@
     .header-socials {
         display: flex;
         flex-direction: row;
+        align-items: center;
         gap: 0.8rem;
         position: absolute;
-        left: 180px;
+        top: -170px;
+        left: 130px;
         bottom: 0;
     }
 }
