@@ -1,11 +1,11 @@
 import React from 'react';
 import './Projects.css';
-import IMG1 from '../../images/assets/stornge-gym.JPG'
-import IMG2 from '../../images/assets/caps-collection.JPG'
-import IMG3 from '../../images/assets/pick-your-phone.JPG'
-import IMG4 from '../../images/assets/calculate-my-monthly-income.JPG'
-import IMG5 from '../../images/assets/convention-center.JPG'
-import IMG6 from '../../images/assets/influncer-products.JPG'
+import IMG1 from '../../images/assets/strong-gyem-home.png'
+import IMG2 from '../../images/assets/cap-collection.png'
+import IMG3 from '../../images/assets/iphone.png'
+import IMG4 from '../../images/assets/calculet-image.png'
+import IMG5 from '../../images/assets/convention-home.png'
+import IMG6 from '../../images/assets/influencer-banner.png'
 import { FaRegEye } from 'react-icons/fa'
 import { BsGithub } from 'react-icons/bs'
 import { Cursor, useTypewriter } from 'react-simple-typewriter';

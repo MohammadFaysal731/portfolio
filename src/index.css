@@ -27,6 +27,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 ::-webkit-scrollbar {
   display: none;
 }
@@ -58,7 +59,7 @@ h1 {
 }
 
 .section {
-  margin-top: 5rem;
+  margin-top: 8rem;
 }
 
 

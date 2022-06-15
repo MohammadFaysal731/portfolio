@@ -6,13 +6,15 @@
 
 .project-item {
     background: var(--color-bg-variant);
-    padding: 1rem;
+    padding: 0.8rem;
     border: 1px solid var(--color-primary);
     border-radius: 20px;
     transition: var(--transition);
 }
 
 .project-image {
+    width: 400px;
+    aspect-ratio: 1/1;
     border: 1px solid var(--color-primary);
     border-radius: 10px;
 }
