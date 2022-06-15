@@ -1,8 +1,7 @@
 .project-container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    width: 400px;
 }
 
 .project-item {
@@ -11,7 +10,6 @@
     border: 1px solid var(--color-primary);
     border-radius: 20px;
     transition: var(--transition);
-    user-select: none;
 }
 
 .project-image {
@@ -39,3 +37,13 @@
     padding: .5rem;
 
 }
+
+/* --------------------- Media Queries ForTable -------------------- */
+@media screen and (max-width:1024px) {
+    .project-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* --------------------- Media Queries For Mobile -------------------- */
+@media screen and (max-width:688px) {}

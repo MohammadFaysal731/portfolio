@@ -12,6 +12,7 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import Header from './components/Header/Header';
 import Blogs from './components/Blogs/Blogs';
+import ProjectDetail from './components/ProjectDetail/ProjectDetail';
 
 function App() {
   useEffect(() => {
@@ -26,6 +27,7 @@ function App() {
         <Route path='/skills' element={<Skills></Skills>}></Route>
         <Route path='/services' element={<Services></Services>}></Route>
         <Route path='/projects' element={<Projects></Projects>}></Route>
+        <Route path='/projects/:id' element={<ProjectDetail></ProjectDetail>}></Route>
         <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/contact' element={<Contact></Contact>}></Route>
         <Route path='/about' element={<About></About>}></Route>
