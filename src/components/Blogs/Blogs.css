@@ -1,3 +1,4 @@
-h1 {
+.blog-title {
+    text-align: center;
     color: var(--color-primary);
 }
