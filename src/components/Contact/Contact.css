@@ -72,8 +72,8 @@ textarea {
     font-size: 0.8rem;
 }
 
-/* --------------------- Media Queries For table -------------------- */
-@media screen and (max-width:1024px) {
+/* --------------------- Media Queries For Mobile -------------------- */
+@media screen and (max-width:688px) {
     .container.contact-container {
         grid-template-columns: 1fr;
         gap: 2rem
@@ -81,8 +81,8 @@ textarea {
 
 }
 
-/* --------------------- Media Queries For Mobile -------------------- */
-@media screen and (max-width:688px) {
+/* --------------------- Media Queries For Table -------------------- */
+@media screen and (min-width:689px) and (max-width:1024px) {
     .container.contact-container {
         width: var(--container-width-sm);
     }

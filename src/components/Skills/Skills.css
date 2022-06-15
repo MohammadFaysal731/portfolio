@@ -53,14 +53,14 @@
     border-color: transparent;
 }
 
-/* --------------------- Media Queries For Table -------------------- */
-@media screen and (max-width:1024px) {
+/* --------------------- Media Queries For Mobile -------------------- */
+@media screen and (max-width:688px) {
     .skill-container {
         grid-template-columns: 1fr;
     }
 
     .skill-container>div {
-        width: 80%;
+        width: 100%;
         padding: 2rem;
         margin: 0 auto;
     }
@@ -70,8 +70,8 @@
     }
 }
 
-/* --------------------- Media Queries For Mobile -------------------- */
-@media screen and (max-width:688px) {
+/* --------------------- Media Queries For Table -------------------- */
+@media screen and (min-width:689px) and (max-width:1024px) {
     .skill-container>div {
         width: 100%;
     }

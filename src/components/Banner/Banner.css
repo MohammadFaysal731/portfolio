@@ -24,21 +24,3 @@
      overflow: hidden;
      padding: 5rem 1.5rem 1.5rem 1.5rem;
  }
-
- /* --------------------- Media Queries For Table -------------------- */
- /* @media screen and (max-width:1024px) {
-    header {
-        height: 100vh;
-    }
-} */
-
- /* --------------------- Media Queries For Mobile -------------------- */
- /* @media screen and (max-width:688px) {
-    header {
-        height: 100vh;
-    }
-
-    .contact {
-        display: none;
-    }
-} */
