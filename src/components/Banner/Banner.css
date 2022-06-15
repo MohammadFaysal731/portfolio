@@ -1,0 +1,43 @@
+ .banner {
+     height: 100vh;
+     padding-bottom: 5rem;
+     /* overflow: hidden; */
+ }
+
+ .banner-container {
+     text-align: center;
+     height: 100%;
+     position: relative;
+ }
+
+ .me {
+     background: linear-gradient(var(--color-primary), transparent);
+     width: 22rem;
+     height: 30rem;
+     position: absolute;
+     left: calc(50% - 11rem);
+     /* left: 50%;
+    transform: translateX(-50%); */
+     margin-top: 4rem;
+     border-radius: 12rem 12rem 0 0;
+     overflow: hidden;
+     padding: 5rem 1.5rem 1.5rem 1.5rem;
+ }
+
+ /* --------------------- Media Queries For Table -------------------- */
+ /* @media screen and (max-width:1024px) {
+    header {
+        height: 100vh;
+    }
+} */
+
+ /* --------------------- Media Queries For Mobile -------------------- */
+ /* @media screen and (max-width:688px) {
+    header {
+        height: 100vh;
+    }
+
+    .contact {
+        display: none;
+    }
+} */

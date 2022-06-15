@@ -1,23 +1,23 @@
-.header-socials {
+.banner-socials {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.8rem;
     position: absolute;
     left: 0;
-    bottom: 3rem;
+    bottom: 9rem;
 }
 
 /* --------------------- Media Queries For Mobile -------------------- */
 @media screen and (max-width:600px) {
-    .header-socials {
+    .banner-socials {
         display: flex;
         flex-direction: row;
         align-items: center;
         gap: 0.8rem;
         position: absolute;
-        top: -170px;
-        left: 130px;
+        top: -180px;
+        left: 140px;
         bottom: 0;
     }
 }

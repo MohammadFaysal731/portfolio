@@ -1,17 +1,17 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import Resume from '../Resume/Resume';
-import HeaderSocials from '../HeaderSocials/HeaderSocials';
+import HeaderSocials from '../BannerSocials/BannerSocials';
 import ME from '../../images/assets/me.png'
-import './Header.css';
-const Header = () => {
+import './Banner.css';
+const Banner = () => {
     const { text } = useTypewriter({
         words: ['Front-End Developer', 'Web Developer', 'React Developer', 'Meran Stack Developer',],
         loop: {}
     })
     return (
-        <header >
-            <div className="container header-container">
+        <section className='banner'>
+            <div className="container banner-container">
                 <h5
                     data-aos="fade-down"
                     data-aos-delay="50"
@@ -31,6 +31,7 @@ const Header = () => {
                     data-aos-easing="ease-in-out"
                     style={{ color: '#176F6B', fontSize: '1rem' }}>{text}<Cursor></Cursor></h5>
                 <Resume></Resume>
+                <HeaderSocials></HeaderSocials>
                 <div
                     data-aos="zoom-in"
                     data-aos-delay="2500"
@@ -39,11 +40,10 @@ const Header = () => {
                     className="me">
                     <img src={ME} alt="" />
                 </div>
-                <HeaderSocials></HeaderSocials>
             </div>
-        </header >
+        </section >
         //  <SiChainlink></SiChainlink>
     );
 };
 
-export default Header;
+export default Banner;

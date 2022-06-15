@@ -6,11 +6,11 @@ import SectionNavigation from '../SectionNavigation/SectionNavigation';
 import Projects from '../Projects/Projects';
 import Services from '../Services/Services';
 import './Home.css';
-import Header from '../Header/Header';
+import Banner from '../Banner/Banner';
 const Home = () => {
     return (
         <div>
-            <Header></Header>
+            <Banner></Banner>
             <SectionNavigation></SectionNavigation>
             <About></About>
             <Experience></Experience>
