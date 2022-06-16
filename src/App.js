@@ -13,7 +13,7 @@ import { useEffect } from 'react';
 import Header from './components/Header/Header';
 import Blogs from './components/Blogs/Blogs';
 import ProjectDetail from './components/ProjectDetail/ProjectDetail';
-import New from './components/New/New';
+
 
 function App() {
   useEffect(() => {
@@ -22,8 +22,7 @@ function App() {
   return (
 
     <div className="">
-      {/* <Header></Header> */}
-      <New></New>
+      <Header></Header>
       <Routes>
         <Route path='/' element={<Home></Home>}></Route>
         <Route path='/skills' element={<Skills></Skills>}></Route>
